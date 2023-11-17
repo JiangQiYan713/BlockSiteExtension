@@ -12,7 +12,7 @@ Chrome浏览器的扩展应用，拉黑你不喜欢的网站，使其重定向�
 Chrome浏览器-扩展程序  
 
 ## 如何安装  
-1.下载最新的[Release](https://github.com/JiangQiYan713/BlockSiteExtension/releases) 
+1.下载最新的[Release](https://github.com/JiangQiYan713/BlockSiteExtension/releases)   
 2.解压缩到一个固定的目录  
 3.打开Chrome浏览器右上角三个点→扩展程序→管理扩展程序→右上角开发者模式（打开）→加载已解压的扩展程序→选中解压的文件夹  
 
