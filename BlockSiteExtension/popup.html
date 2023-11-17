@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blocked Sites</title>
+</head>
+<body>
+  <label for="site">Blocked Sites:</label>
+  <input type="text" id="site" style="width: 30em;" />
+  <button id="blockButton">Block</button>
+  <h2>Redirect Settings</h2>
+  <label for="redirectUrl">Redirect URL:</label>
+  <input type="text" id="redirectUrl" placeholder="Enter redirect URL" />
+  <button id="saveRedirect">Save</button>
+  <p id="currentRedirect">Current Redirect URL: <span id="currentRedirectUrl"></span></p>
+  <hr />
+  <h2>Blocked List</h2>
+  <ul id="blockedList"></ul>
+
+  <button id="exportButton">Export</button>
+  <button id="importButton">Import</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
